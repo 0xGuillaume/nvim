@@ -10,3 +10,6 @@ vim.keymap.set("n", "<C-Right>", ":bnext")
 vim.keymap.set("n", "<C-Left>", ":bprev")
 
 vim.keymap.set("i", "<C-c>", "<ESC>")
+
+vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
+vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
