@@ -5,7 +5,12 @@ require("catppuccin").setup {
 			mantl = "#000000",
 			crust = "#000000",
 		}
-	}
+	},
+	custom_highlights = function()
+		return {
+			Comment = { bg = "#000000" }
+		}
+	end
 }
 
 vim.cmd.colorscheme "catppuccin-mocha"
