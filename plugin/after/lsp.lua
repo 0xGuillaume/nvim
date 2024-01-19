@@ -14,7 +14,6 @@ require("mason-lspconfig").setup({
 		"gopls",
 		"pylsp",
 		"terraformls",
-		"sqls",
 		},
 	handlers = {
 		lsp_zero.default_setup,
