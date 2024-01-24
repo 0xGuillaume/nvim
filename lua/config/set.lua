@@ -10,7 +10,7 @@ vim.opt.expandtab = true
 
 vim.opt.smartindent = true
 
-sewapfile = false
+vim.opt.swapfile = false
 
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
