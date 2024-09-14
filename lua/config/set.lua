@@ -27,7 +27,7 @@ vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
 -- Set an additionnal space on the number's left side.
-vim.opt.signcolumn = true
+vim.opt.signcolumn = "yes"
 
 vim.opt.termguicolors = true
 
